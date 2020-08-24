@@ -10239,15 +10239,48 @@ template {
   font-family: "Poppins", sans-serif;
 }
 
+.navigation__logo sup {
+  color: #012F29;
+  font-size: 10px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.navigation__logo:hover {
+  color: #848484;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
 .navigation__icon i {
   color: #012F29;
   margin: 0 2px 0 2px;
 }
 
-.header__image {
-  max-width: 100%;
+.navigation__icon i:hover {
+  color: #848484;
+  margin: 0 2px 0 2px;
 }
 
+header {
+  color: #fff;
+  height: 100px;
+  background-image: url("../img/image-banner.png");
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 576px) {
+  header {
+    color: #fff;
+    height: 250px;
+    background-image: url("../img/image-banner.png");
+    background-repeat: none;
+    background-size: cover;
+  }
+}
 .user-info__thumbnail img {
   width: 80%;
 }
@@ -10298,9 +10331,23 @@ template {
   padding: 8px 10px 8px 10px;
 }
 
+.user-info__button-msg:hover {
+  border: none;
+  background: #848484;
+  color: #fff;
+  padding: 8px 10px 8px 10px;
+}
+
 .user-info__button-follow {
   border: none;
   background: #ff5f40;
+  color: #fff;
+  padding: 8px 15px 8px 15px;
+}
+
+.user-info__button-follow:hover {
+  border: none;
+  background: #848484;
   color: #fff;
   padding: 8px 15px 8px 15px;
 }

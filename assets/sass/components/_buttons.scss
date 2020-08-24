@@ -10,9 +10,23 @@
 	padding: 8px 10px 8px 10px;
 }
 
+.user-info__button-msg:hover {
+	border: none;
+	background:$gray;
+	color: $white;
+	padding: 8px 10px 8px 10px;
+}
+
 .user-info__button-follow {
 	border: none;
 	background: $salmon;
+	color: $white;
+	padding: 8px 15px 8px 15px;
+}
+
+.user-info__button-follow:hover {
+	border: none;
+	background: $gray;
 	color: $white;
 	padding: 8px 15px 8px 15px;
 }
