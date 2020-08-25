@@ -13,5 +13,30 @@
 	color: $gray;
 }
 
+.main-content h1 {
+	margin: 0;
+	font-size: $large;
+    }    
+
+
+
+
+@media (max-width: 576px) {
+
+.main-content h1 {
+	text-align: center;
+	font-size: $x-large;
+    }    
+
+}
+
+@media (max-width: 768px) {
+
+.main-content h1 {
+	text-align: center;
+	font-size: $x-large;
+    }    
+
+}
 
 

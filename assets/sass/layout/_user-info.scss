@@ -23,3 +23,33 @@
  	font-weight: $semi-bold;
 }
 
+.thumbnail {
+border: 1px solid $white;
+border-radius: 50%;
+}
+
+
+.user-info__summary {
+	padding: 0;
+}
+
+
+
+
+@media (max-width: 576px) {
+
+.user-info__thumbnail-mediaquery {
+	display:flex;
+	align-items: center;
+  	justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+
+.user-info__thumbnail-mediaquery {
+	display:flex;
+	align-items: center;
+  	justify-content: center;
+}
+}

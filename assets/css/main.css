@@ -10304,6 +10304,29 @@ header {
   font-weight: 600;
 }
 
+.thumbnail {
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+.user-info__summary {
+  padding: 0;
+}
+
+@media (max-width: 576px) {
+  .user-info__thumbnail-mediaquery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .user-info__thumbnail-mediaquery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
 .main-content__img {
   width: 100%;
 }
@@ -10319,6 +10342,23 @@ header {
   color: #848484;
 }
 
+.main-content h1 {
+  margin: 0;
+  font-size: 25px;
+}
+
+@media (max-width: 576px) {
+  .main-content h1 {
+    text-align: center;
+    font-size: 35px;
+  }
+}
+@media (max-width: 768px) {
+  .main-content h1 {
+    text-align: center;
+    font-size: 35px;
+  }
+}
 .container-buttons {
   display: flex;
   justify-content: flex-end;
