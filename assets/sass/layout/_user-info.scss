@@ -38,18 +38,20 @@ border-radius: 50%;
 
 @media (max-width: 576px) {
 
-.user-info__thumbnail-mediaquery {
-	display:flex;
-	align-items: center;
-  	justify-content: center;
+  	.user-info__thumbnail-mediaquery {
+   	position: relative;
+   	left: 60px;
     }
+    
 }
 
 @media (max-width: 768px) {
 
 .user-info__thumbnail-mediaquery {
-	display:flex;
-	align-items: center;
-  	justify-content: center;
+   	position: relative;
+   	left: 60px;
+    }
 }
-}
+
+
+   
