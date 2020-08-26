@@ -10246,6 +10246,11 @@ template {
   font-family: "Poppins", sans-serif;
 }
 
+sup {
+  position: relative;
+  top: -1em;
+}
+
 .navigation__logo:hover {
   color: #848484;
   font-size: 25px;

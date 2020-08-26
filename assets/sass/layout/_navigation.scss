@@ -12,6 +12,11 @@
 	font-family: $poppins;
 }
 
+sup {
+	position: relative;
+	top: -1em;
+}
+
 .navigation__logo:hover {
 	color: $gray;
 	font-size: $large;
