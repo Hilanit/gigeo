@@ -10323,6 +10323,11 @@ header {
     position: relative;
     left: 60px;
   }
+
+  .user-info__thumbnail img {
+    display: flex;
+    align-item: center;
+  }
 }
 @media (max-width: 768px) {
   .user-info__thumbnail-mediaquery {
